@@ -335,10 +335,28 @@
             >
           </div>
 
-          <form action="" class="contact__form">
+          <form
+            action="https://formsubmit.co/umardika678@gmail.com"
+            method="POST"
+            class="contact__form"
+          >
+            <input type="text" name="_honey" style="display: none" />
+            <input type="hidden" name="_captcha" value="false" />
             <div class="contact__inputs">
-              <input type="text" placeholder="Name" class="contact__input" />
-              <input type="email" placeholder="Email" class="contact__input" />
+              <input
+                type="text"
+                placeholder="Name"
+                name="Name"
+                required
+                class="contact__input"
+              />
+              <input
+                type="email"
+                placeholder="Email"
+                name="email"
+                required
+                class="contact__input"
+              />
             </div>
 
             <textarea
@@ -349,7 +367,12 @@
               class="contact__input"
             ></textarea>
 
-            <input type="submit" value="Send" class="contact__button" />
+            <input
+              type="submit"
+              id="send"
+              value="Send"
+              class="contact__button"
+            />
           </form>
         </div>
       </section>
